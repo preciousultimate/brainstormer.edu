@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Developer" content="Ebi Akangbou">
+        <meta name="Discription" content="Brain Stormers">
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+    <title>Brain Stormers</title>
+    <style>
+    
+
+        body{
+         background-color: #000;
+         color: var(--FCOLOR);
+         font-size: 18px;
+         line-height: 1.5;
+         background-image: url(img/mobile.jpg);
+         background-repeat: no-repeat;
+         background-position: top center;
+     }
+     h1{
+             position: absolute;
+             left: 50%;
+             top: 50%;
+             margin-left: -38%;
+             z-index: 1;
+             transform: rotate(-35deg);
+             
+         }
+         .p{
+             font-size: 2rem;
+             position: relative;
+             left: 50%;
+             top: 50%;
+             margin-left: -101%;
+             transform: translateY(66%);
+             margin-bottom: 123%;
+             font-weight: bolder;
+      
+         }
+         h1, .p {
+             display: grid;
+             place-content: center;
+             margin-top: -30%;
+         }
+     @media screen and (min-width: 540px){
+        h1{
+             margin-left: -27%;
+     
+     
+     }
+     }
+     @media screen and (min-width: 768px){
+     body{
+         background-image: url(img/desk.jpg);
+         background-position: 45% 15%;
+     }
+     
+     h1{
+             margin-left: -19.5%;
+     
+     }
+     .p{
+         margin-left: -102%;
+             margin-bottom: 75%; 
+     }
+     h1, .p {
+         margin-top: -12%;
+     }
+     
+     }
+     @media screen and (min-width: 1200px){
+         h1{
+             margin-left: -11.3%;
+     
+     }
+      
+     .p{
+         margin-left: -100%;
+             margin-bottom: 35.5%; 
+     }
+     h1, .p {
+         margin-top: -12%;
+     }
+     }
+     </style>
+     
+</head>
+
+<body>
+    <h1><img src="img/logo.png" alt="logo" title="logo" width="64" height="64"></h1>
+<p class="p">Brain Stormers</p>
+    <main>
+    <form action="homepage.html" id="form">
+        <fieldset>
+        <legend>Student Verification</legend>
+        <input type="text" id="firstname" placeholder="Your first name">
+        <p class="error"></p>
+        <input type="text" id="surname" placeholder="Your surname">
+        <p class="error"></p>
+        <p class="error"></p>
+        <button type="submit" id="btn">Verify me</button>
+    </fieldset>
+    </form>
+</main>
+    <script src="verification.js"></script>
+</body>
+</html>
