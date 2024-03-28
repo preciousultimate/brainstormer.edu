@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+
+
 .img{
     display: block;
     max-width: 100%;
@@ -203,6 +205,13 @@ article section{
 article section h3{
   margin-left: -5px;
 }
+article section p{
+  white-space: nowrap;
+}
+section h2{
+  z-index: 1;
+  position: relative;
+}
 section .section__div{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -213,6 +222,10 @@ section .section__p{
   margin-top: 20px;
   margin-bottom: 30px;
   color: #000;
+white-space: normal;
+  
+  
+
 }
 
 section  li {
@@ -225,6 +238,21 @@ section div a:any-link{
 
 section div a:visited{
   color: #000;
+}
+iframe{
+  display:grid ;
+  place-content: center;
+  margin: -22px auto;
+  z-index: 0;
+  width: 85%;
+  margin-bottom: 15px;
+  border: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  
 }
 
 ol li{
@@ -263,6 +291,7 @@ footer{
   place-content: center;
   font-size: 13px;
   color: #fff;
+  z-index: 1;
 }
 footer div{
   display: grid;
@@ -344,6 +373,12 @@ footer div img{
   margin-left: 5%;
   display: block;
   font-size: 1em;
+}
+.main__p a{
+color: #fff;
+font-size: 12px;
+text-decoration: none;
+display: none;
 }
 .hero{
   display: flex;
@@ -453,6 +488,21 @@ footer div img{
     form button:hover{
       background-color: var(--BTNHOVER);
     }
+    iframe{
+      display:grid ;
+      place-content: center;
+      margin: -50px auto;
+      width: 80%;
+      margin-bottom: 15px;
+      z-index: 0;
+      margin-bottom: 15px;
+      border: none;
+      -webkit-user-select: none;
+      -webkit-touch-callout: none;
+      -moz-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
 
     .header, .header__ol, .header__sub, .header__sem, .header__hundred,.header__huns{
         visibility: hidden;
@@ -475,6 +525,15 @@ footer div img{
         background-color: transparent;
         
       }
+      .hero img{
+        width: 130%;
+      }
+      .main__p a{
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        display: block;
+        }
     
 }
 @media screen and (min-width: 1200px) {
