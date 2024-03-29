@@ -298,7 +298,7 @@ display: grid;
 grid-template-columns: repeat(3, 1fr);
 } 
 footer div img{
-width: 55%;
+width: 35%;
 margin-left: 5px;
 border-radius: 50%;
 }
