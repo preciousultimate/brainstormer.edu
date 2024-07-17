@@ -2,7 +2,7 @@
 let form = document.querySelector("#form");
 let studentName = document.querySelector("#student");
 let password = document.querySelector("#password");
-let registeredStudent = ["I0D8J0"];
+let registeredStudent = ["Locked"];
 let btn = document.querySelector("#btn");
 let errors = document.querySelectorAll(".error")
 form.onsubmit =(eve)=>{
